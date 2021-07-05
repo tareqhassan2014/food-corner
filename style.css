@@ -8,11 +8,17 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #e5e5e5;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
 .container {
@@ -114,17 +120,17 @@ main.container .text p {
 /* recipies section styling */
 
 
-.recipie{
+#recipie{
     margin-top: 8rem;
 }
 
-.recipie .heading h2{
+#recipie .heading h2{
     font-size: 3.6rem;
     text-align: center;
     color: #676767;
 }
 
-.recipie .heading p{
+#recipie .heading p{
     text-align: center;
     font-size: 1.8rem;
     width: 60rem;
@@ -181,7 +187,7 @@ footer h2{
 
 /* blog section styling */
 
-.blogs h3{
+#blogs h3{
     font-size: 4rem;
     text-align: center;
     color: #18191f;
